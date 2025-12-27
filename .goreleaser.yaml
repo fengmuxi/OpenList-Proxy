@@ -71,7 +71,7 @@ changelog:
 kos:
   - base_image: alpine
     repositories:
-      - "ghcr.io/openlistteam/openlist-proxy"
+      - "ghcr.io/fengmuxi/openlist-proxy"
     tags:
       - "{{.Version}}"
       - "{{ if .IsSnapshot }}{{ .ShortCommit }}{{ else }}latest{{ end }}"
