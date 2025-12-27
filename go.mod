@@ -1,4 +1,4 @@
-module github.com/OpenListTeam/OpenList-Proxy
+module github.com/fengmuxi/OpenList-Proxy
 
 go 1.24.4
 
