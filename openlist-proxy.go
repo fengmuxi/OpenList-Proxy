@@ -41,7 +41,7 @@ func init() {
 	flag.BoolVar(&https, "https", false, "use https protocol.")
 	flag.BoolVar(&help, "help", false, "show help")
 	flag.BoolVar(&showVersion, "version", false, "show version and exit")
-	flag.BoolVar(&disableSign, "disable-sign", false, "disable signature verification")
+	flag.BoolVar(&disableSign, "disable-sign", true, "disable signature verification")
 	flag.StringVar(&certFile, "cert", "server.crt", "cert file")
 	flag.StringVar(&keyFile, "key", "server.key", "key file")
 	flag.StringVar(&address, "address", "", "openlist address")
